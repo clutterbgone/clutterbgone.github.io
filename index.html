@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>Clutter B Gone UT</title>
+        <link rel="icon" type="image/png" href="assets/clutter-b-gone.png" sizes="96x96">
+
+
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+        <style type="text/css">
+            body {
+                background-image: url("assets/bee-background-3.jpg");
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                background-color: #464646;
+            }
+
+            #clutter-container {
+                margin-top: 6%;
+            }
+
+            #clutter-img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 35px;
+                max-width:75%;
+            }
+
+            #clutter-content {
+                max-width: 600px;
+                margin: auto;
+            }
+
+            #clutter-headline {
+                font-family: 'Goudy Stout';
+                font-size: 32px;
+                color:#ffffff;
+                text-align:center;
+                margin-top: 0;
+            }
+
+            #clutter-description {
+                text-align:center;
+                font-family: Helvetica, Arial, sans-serif;
+		        font-weight: 400;
+                line-height: 1.50em;
+                color:#ffffff;
+                font-size: 20px;
+            }
+
+            #clutter-subscribe-btn{
+                background:transparent;
+                border: 1px solid #fff !important;
+                color: #fff;
+            }
+
+            .btn-outline-primary.focus, .btn-outline-primary:focus {
+                -webkit-box-shadow: none!important;
+                box-shadow: none!important;
+            }
+
+            #clutter-input {
+                padding: 5px;
+                margin: 20px auto 0px auto;
+                border-color: inherit;
+                border-radius: 5px;
+                border:none;
+                width: 80%;
+                background-color: rgba(255, 255, 255, 0.85);
+            }
+
+            #clutter-input:focus {
+                outline: none;
+                box-shadow: none;
+            }
+
+
+            #clutter-btn {
+                width: 80%;
+                margin: 10px auto 0px auto;
+                color:#ffffff;
+                border-color: #ffffff;;
+            }
+
+            #clutter-social {
+                text-align: center;
+                margin-top: 15px;
+            }
+
+            #clutter-social-middle {
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+
+            #clutter-number {
+                text-align: center;
+                margin-top: 10px;
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 22px;
+            }
+
+            a {
+                color:#ffffff;
+            }
+
+            a:hover {
+                color:#ffffff;
+            }
+
+            #clutter-btn:hover {
+                background-color: transparent;
+                opacity: 0.7;
+            }
+
+            ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: rgb(156, 156, 156);
+                opacity: 1; /* Firefox */
+            }
+
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                color: rgb(156, 156, 156);
+            }
+
+            ::-ms-input-placeholder { /* Microsoft Edge */
+                color: rgb(156, 156, 156);
+            }
+
+            .fa {
+                padding: 20px;
+                font-size: 50px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+                color: #ffffff;
+            }
+
+            .fa-facebook-square {
+                color: #ffffff;
+            }
+
+            .fa-instagram {
+                color: #ffffff;
+            }
+
+            .fa-envelope {
+                color: #ffffff;
+            }
+
+            .image2{
+                display: none;
+            }
+
+            @media only screen and (max-width: 720px) {
+                #clutter-container {
+                    margin-top: 20%;
+                }
+
+                #clutter-headline  {
+                    font-size: 18px;
+                }
+
+                #clutter-description {
+                    font-size: 14px;
+                }
+
+                #clutter-img {
+                    max-width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="clutter-container">
+            <img id="clutter-img" src="assets/clutter-b-gone-title.png" srcset="assets/clutter-b-gone-title.png 1x, assets/clutter-stacked.png 2x">
+            <!-- <img id="clutter-img" src="assets/clutter-stacked.png"> -->
+            <div id="clutter-content">
+                <h1 id="clutter-headline">Website Coming Soon</h1>
+
+                <div id="clutter-description">Get ready! Your clean up solution is here for you!</div>
+
+                <form id="clutter-form" action="" method="post">
+                    <div class="row">
+                        <input id="clutter-input" type="text" placeholder="Email">
+                        <button id="clutter-btn" class="btn btn-outline-primary" type="submit">Notify Me</button>
+                    </div>
+                </form>
+                <div id="clutter-social">
+                    <a href="https://www.facebook.com/Clutter-B-Gone-Utah-109957264054353/" class="fa fa-facebook-square" style="padding: 0px;"></a>
+                    <a href="https://www.instagram.com/clutterbgoneut/" id="clutter-social-middle" class="fa fa-instagram" style="padding: 0px;"></a>
+                    <a href="mailto:info@clutterbgoneut.com" class="fa fa-envelope" style="padding: 0px;"></a>
+                </div>
+                <div id="clutter-number">
+                    <a href="tel:18014487599">(801) 448-7599</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
