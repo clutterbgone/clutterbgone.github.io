@@ -195,6 +195,17 @@
     height: 30px;
 }
 
+.bee-list-img {
+    width: 20px; 
+    height: 20px;
+}
+
+.bee-list-text {
+    margin-top: 3px;
+    position: absolute;
+    margin-left: 5px;
+}
+
 @media (max-width: 767px) {
     #events-wish-text {
         font-size: 12px;
