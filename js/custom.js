@@ -5,8 +5,8 @@
 (function($) {
     "use strict";
 
-  $('.carousel').carousel('pause');
-  //$('.carousel').carousel({interval:false});
+  $('#carouselExampleIndicators').carousel('pause');
+  $('#carouselExampleIndicators').carousel({interval:false});
 
   // carousel lazy
   var $carousel = $('#carouselExampleIndicators');
@@ -17,6 +17,10 @@
       lazy = $(ev.relatedTarget).find("img[data-src]");
       lazy.attr("src", lazy.data('src'));
       lazy.removeAttr("data-src");
+
+      // lazy.on("load", function(){
+      //   console.log("loaded");
+      // });
   });
 	
 	// Smooth scrolling using jQuery easing
