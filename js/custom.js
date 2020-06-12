@@ -5,7 +5,19 @@
 (function($) {
     "use strict";
 
-    $('.carousel').carousel('pause');
+  $('.carousel').carousel('pause');
+  //$('.carousel').carousel({interval:false});
+
+  // carousel lazy
+  var $carousel = $('#carouselExampleIndicators');
+
+  $carousel.bind('slide.bs.carousel', function (ev) {
+      var lazy;
+
+      lazy = $(ev.relatedTarget).find("img[data-src]");
+      lazy.attr("src", lazy.data('src'));
+      lazy.removeAttr("data-src");
+  });
 	
 	// Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
