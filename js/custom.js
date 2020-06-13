@@ -18,9 +18,17 @@
       lazy.attr("src", lazy.data('src'));
       lazy.removeAttr("data-src");
 
-      // lazy.on("load", function(){
-      //   console.log("loaded");
-      // });
+      lazy.on("load", function(){
+        console.log("loaded");
+
+        var carouselItem = $(ev.relatedTarget);
+        var loader = $(carouselItem.context.children[1]);
+
+        console.log(loader);
+
+        loader.removeClass("visible");
+        loader.addClass("invisible");
+      });
   });
 	
 	// Smooth scrolling using jQuery easing

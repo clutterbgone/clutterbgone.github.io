@@ -210,6 +210,10 @@
     margin-top: 25px;
 }
 
+.carousel-image-fix {
+    top: calc(50% - 30px);
+}
+
 @media (max-width: 767px) {
     #events-wish-text {
         font-size: 12px;
