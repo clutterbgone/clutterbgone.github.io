@@ -24,8 +24,6 @@
         var carouselItem = $(ev.relatedTarget);
         var loader = $(carouselItem.context.children[1]);
 
-        console.log(loader);
-
         loader.removeClass("visible");
         loader.addClass("invisible");
       });
