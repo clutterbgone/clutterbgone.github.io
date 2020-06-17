@@ -233,7 +233,27 @@
     transform: rotate(-200deg);
 }
 
+.review-icons {
+    font-size: 48px !important;
+}
+
+.review-icons.fb {
+    color: #3b5998 !important;
+}
+
+.review-icons.goog {
+    color: #DB4437 !important;
+}
+
+.review-icons:visited {
+    color: black;
+}
+
 @media (max-width: 767px) {
+    .image-loader-container {
+        top: calc(50% - 100px);
+    }
+
     #events-wish-text {
         font-size: 12px;
     }
