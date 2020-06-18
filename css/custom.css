@@ -250,9 +250,9 @@
 }
 
 @media (max-width: 767px) {
-    .image-loader-container {
+    /* .image-loader-container {
         top: calc(50% - 100px);
-    }
+    } */
 
     #events-wish-text {
         font-size: 12px;
