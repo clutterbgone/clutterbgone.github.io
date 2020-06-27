@@ -275,4 +275,8 @@
     #service-section {
         margin-bottom: 15px;
     }
+
+    .image-loader-container {
+        top: calc(50% - -101px);
+    }
 }

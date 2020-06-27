@@ -25,7 +25,7 @@
         var loader = $(carouselItem.context.children[1]);
 
         loader.removeClass("visible");
-        loader.addClass("invisible");
+        //loader.addClass("invisible");
       });
   });
 
