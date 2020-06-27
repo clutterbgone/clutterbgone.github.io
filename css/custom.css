@@ -250,10 +250,6 @@
 }
 
 @media (max-width: 767px) {
-    /* .image-loader-container {
-        top: calc(50% - 100px);
-    } */
-
     #events-wish-text {
         font-size: 12px;
     }
@@ -277,6 +273,6 @@
     }
 
     .image-loader-container {
-        top: calc(50% - -140px);
+        top: calc(50% - -135px);
     }
 }
