@@ -120,6 +120,19 @@
     color: rgb(233, 220, 20);
 }
 
+.recycle-icon {
+    background-image: url(../images/recycling.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 3px;
+    left: -3px;
+}
+
 #service-section {
     margin-bottom: 40px;
 }
