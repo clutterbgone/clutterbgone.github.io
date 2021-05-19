@@ -262,6 +262,10 @@
     color: black;
 }
 
+.booking-section {
+    
+}
+
 @media (max-width: 767px) {
     #events-wish-text {
         font-size: 12px;
